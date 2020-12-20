@@ -1,0 +1,41 @@
+body{
+    background-color: #26202b;
+    top: 50%; 
+    display: grid;
+    min-height: 100vh;
+    height: fit-content;
+}
+
+
+section{
+    position: relative;
+    background-color: #3F3547;
+    width: fit-content;
+    height: fit-content;
+    display: block;
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+    border-radius: 30px;
+
+}
+
+img:hover {
+    transform: scale(1.05);
+    z-index: 1000;
+    transition: .5s;
+}
+footer{
+    height: fit-content;
+    width: fit-content;
+    margin: auto;
+    border-radius: 100px;
+    top: 100%;
+}
+
+div{
+    background-color: #7f6b8f;
+    display: flex;
+    height: fit-content;
+    width: fit-content;
+}
