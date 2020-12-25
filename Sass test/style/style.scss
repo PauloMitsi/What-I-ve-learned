@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background-color: rgb(65, 65, 65);
+    display: flex;
+}
+
+.box{
+    position: absolute;
+    background-color: rgb(116, 116, 116);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 20%;
+    height: 20%;
+    display: grid;
+    align-items: center;
+    text-align: center;
+}
+
+$colors: (red, blue, white);
+
+@each $i in $colors {
+    .#{$i}-text {background-color: $i;}
+}
